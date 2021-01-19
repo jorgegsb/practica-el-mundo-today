@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,header,nav, section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+header .logo {
+	display: flex;
+	justify-content:center; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 79%;
+}
+header .logo img{
+	width: 18%;
+	margin-left: 18em;
+	
+}
+header .iconos{
+width: 20%
+
+}
+
+header .debajoLogo{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	background-color: orange;
+	justify-content: center;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+nav ul{
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	border-bottom: solid;
+	
+	font-weight: bold;
+	
+}
+
+nav ul li{
+	list-style: none;	
+}
+nav ul li a{
+color: black;
+text-decoration: none;
+
+}
+nav ul li a:hover{
+	
+	text-decoration: underline;
+ 
+}
+article{
+	width: 100%;
+	margin-top: 3em;
+}
+
+article, article figure{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+article figure{
+	width: 70%;
+
+}
+article figure figcaption{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+article figure figcaption:hover{
+
+	color: orange;
+}
+
+.publicidad{
+	width: 25%;
+	
+}
+.publicidad img{
+	width: 100%;
+}
+.cuerpo{
+	width: 100%;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.cuerpoPagina{
+		width: 30%;	
+	    font-size: 1.5em;
+	    font-weight: bold;
+	    font-style: italic;	
+}
+
+.cuerpoPagina img{
+ width: 100%;
+}
+
+
+
+
+.programasElectorales{
+flex-direction: row;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-around;
+
+}
+
+.partidosPoliticos{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 30%;
+
+
+}
+
+.partidosPoliticos img{width: 50%;}
+
+.partidosPoliticos figcaption{
+
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+font-family:Times New Roman;
+
+}
+.partidosPoliticos figcaption:hover{
+
+color: orange;
+
+}
+
+.coberturaEspecialPadre{
+	display: flex;
+	flex-wrap: wrap;
+	flex direction: column;
+	width: 100%;
+	justify-content:center;
+	padding-bottom: 4em;
+	padding-top: 4em;
+}
+
+.coberturaEspecial {
+	display: flex;
+	flex-wrap: wrap;
+	flex direction: column;
+	width: 30%;
+	justify-content:center;
+	background-color: #CDCDCD ;
+	text-align: center;
+	align-items: center;
+}
+
+.coberturaEspecial figcaption{
+
+font-family: arial black;
+font-style: oblique;
+
+}
+.coberturaEspecial figcaption:hover{
+
+	color: #D76A00;
+}
+
+.noticiasPadre{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.noticias{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 70%;
+}
+.noticias img{
+	margin-bottom: 3em;
+	width: 15%;
+}
+.noticias{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	border-bottom: 2px dotted grey;
+}
+.noticias figcaption{
+width: 70%;
+font-style: oblique;
+font-weight: bold;
+font-size: 1.25em;
+font-family:arial;
+
+
+
+}
+.noticias figcaption:hover{
+
+color: orange;
+
+}
+footer{
+	width: 100%;
+}
+footer img{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+
+
+
+@media (max-width:780px){
+	
+
+	header .logo img{
+	margin-left: 5em;
+
+}
+	figure{
+		width: 100%;
+	}
+	article{
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.cuerpoPagina{
+		width: 100%;
+	}
+
+	.publicidad img{
+		display: none;
+	}
+
+	.partidosPoliticos{
+
+		width: 100%;
+		text-align: center;
+	}
+
+.primeraPlana figcaption{
+	text-align: center;
+	justify-content: center;
+}
+
+.coberturaEspecialPadre{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+.coberturaEspecial img{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+}
+	
